@@ -55,7 +55,7 @@ The candidate contains reconstructed plaintext and is sensitive.
   guarantees and residual risks.
 - [Architecture](docs/architecture.md): source map and authority flow.
 - [Build and verification](docs/build.md): Cargo checks and exact reproduction.
-- [Security reporting](SECURITY.md): planned private reporting and current availability.
+- [Security reporting](SECURITY.md): verified GitHub Private Vulnerability Reporting and the current reporting link.
 
 safeclone is licensed under [Apache-2.0](LICENSE). [Third-party provenance and
 licenses](THIRD_PARTY.md) identify the dependencies and adapted code.
