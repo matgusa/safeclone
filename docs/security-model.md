@@ -1,57 +1,67 @@
 # Security model
 
-safeclone treats workspace contents, names and concurrent changes as hostile.
-It keeps the original read-only, applies a finite compiled policy and rejects
-unsupported or ambiguous authority. Successful verification is evidence under
-that policy. It is not complete secret detection, permission to disclose data,
-or proof that edited code is safe.
+safeclone leaves the original folder read-only and only removes or replaces
+information that its known checks can identify. Treat every file, file name and
+change made while it runs as potentially unsafe. It refuses unsupported or
+ambiguous situations. Passing verification means the checks completed under the
+current rules; it does not mean all secrets were found, data is safe to share or
+edited code is safe to run.
 
-## Trust zones and disclosure
+## Folders and what they contain
 
-| Location | Role and confidentiality |
+| Location | Meaning and confidentiality |
 | --- | --- |
-| Original | Hostile to traversal, authoritative for re-deriving original values; never modified |
-| One-way clone | Irreversible policy-relative output; no restoration mapping; undetected information may remain |
-| AI workspace | Untrusted editable tokenized input; only this session location is intended for external AI |
-| Private state | Confidential CurrentUser-DPAPI-protected, application-authenticated session authority and reports |
-| Sensitive candidate | Reconstructed original plaintext and preserved original-only files; never an AI-safe output |
+| Original | The folder supplied to safeclone; never modified and used as the source for reconstruction |
+| Cleaned copy | An irreversible copy; some detected information is removed or replaced, but missed information may remain |
+| AI copy | A separate copy an AI may edit; only this location is intended for external AI editing |
+| Private state | Encrypted session data protected by Windows' CurrentUser DPAPI and safeclone authentication |
+| Reconstructed files | Files written after approved edits; they may contain the original plaintext again and are not an AI-safe output |
 
-Safeclone does not execute project code, upload data, contact services or collect
-telemetry. The OS, filesystem filters, indexing, backup/sync software and other
-processes can still observe local files or generate network traffic. Keep all
-sensitive locations outside remote and sync providers.
+safeclone does not execute project code, upload data, contact services or collect
+telemetry. The operating system, filesystem filters, indexing, backup software,
+sync software and other local processes can still observe files or generate
+network traffic. Keep sensitive folders off network drives and cloud-synced
+locations.
 
-The adversary may supply malformed trees, token strings and edits; race names
-and files; introduce links or aliases; and interrupt ordinary processes. The
-guarantees do not cover same-user malware that can decrypt DPAPI or read memory,
-process injection, administrator/kernel compromise, complete valid historical
-state rollback, account recovery, forensic recovery, cloud copies or physical
-attacks. Physical file IDs are point-in-time filesystem facts, not a hardware
-root of trust.
+A folder may be malformed or change while it is being read. It may contain
+links, aliases, strange names or edits designed to confuse the process. The
+guarantees do not cover malware running as the same Windows user, an
+administrator or kernel-level attacker, complete rollback to valid historical
+state, account recovery, forensic recovery, cloud copies or physical attacks.
+Physical file IDs are point-in-time filesystem facts, not a hardware root of
+trust.
 
-## Detection and one-way invariants
+## What safeclone checks and what it cannot promise
 
-The compiled detectors cover bounded secret patterns and conservative email,
-international phone, IP, Japanese postal, My Number, corporate number and domestic
-phone shapes. Numbering-plan shape or check-digit agreement does not prove
-allocation, identity, ownership, reachability or legal/PII status. False positives
-and false negatives are expected. Classification by extension is also incomplete.
+safeclone checks a bounded set of secret patterns and conservative forms of
+email, international phone, IP, Japanese postal, My Number, corporate number and
+domestic phone data. A matching number shape or check digit does not prove that
+the number is assigned, belongs to someone or is reachable. False positives and
+false negatives are expected, and file-extension classification is incomplete.
 
-One-way reports retain aggregate counts, not raw source/output paths, matched
-values, source-derived IDs, raw context, path manifests or restoration authority.
-Transforms replace covered spans with fixed irreversible markers before writing.
-There is no raw-copy fast path for zero findings. Nevertheless, undetected content
-and ordinary names may remain unchanged. High-risk, unsupported and untransformable
-files are omitted; name collisions, races and unresolved states fail closed.
-Actual output is independently verified again before no-clobber promotion.
+Reports contain totals, not original paths, matched values, raw context, path
+lists or a way to restore the original. Detected portions are replaced with
+fixed irreversible markers before writing. Even when no match is found, readable
+text is processed; safeclone does not simply copy it unchanged because the check
+found nothing. Missed information and ordinary names may still remain. High-risk,
+unsupported or untransformable files are left out; collisions, races and
+uncertain states fail closed. The output is checked again before it can replace
+an absent destination.
 
-All filesystem commands enforce the [supported boundary](support.md). Retained
-handles, no-follow traversal, positive local-volume membership and identity
-rechecks prevent an observed entry from silently becoming an ambient-path reopen.
-Git metadata is excluded. Hardlinks, streams, reparse points and ambiguous
-namespace states do not authorize content access or sensitive writes.
+All filesystem commands enforce the [supported boundary](support.md). Internally,
+safeclone keeps an already-open reference to each accepted folder, does not
+follow link-like entries, confirms the drive is local and checks identity again.
+This prevents an observed entry from being reopened through a different path.
+Git metadata is excluded. Hardlinks, streams, reparse points and ambiguous names
+do not authorize content access or sensitive writes.
 
-## Tokens and private state
+## Technical details for private session data
+
+Most users do not need the token format. This section records the exact
+compatibility details for auditing and for the advanced edit-and-return
+workflow. Private session data is encrypted with Windows' CurrentUser DPAPI
+(protection tied to the current Windows account) and then authenticated by
+safeclone.
 
 The suite identifier `SAFECLONE-RT1-HS256-DPAPI-CU` and token form
 `__SAFECLONE_RT1_<CAT>_<SID>_<OID>_<AUTH>__` are actual compatibility identifiers.
@@ -94,13 +104,14 @@ retain no copies. CurrentUser DPAPI does not supply same-user isolation or make
 copied state portable. Keep the same user/machine profile and unchanged Original;
 their loss can make reconstruction unavailable.
 
-## Reconstruction
+## Bringing approved edits back
 
-Reconstruction proves that a restored occurrence comes from the unchanged
-Original and is placed at an authenticated, policy-permitted edited boundary.
-It does not assess the meaning or safety of the surrounding code.
+Reconstruction writes approved edits into separate files. It proves that each
+restored value came from the unchanged Original and is placed at an approved
+edited location. It does not judge the meaning or safety of surrounding code.
 
-StandardV2 uses exact relative context. It normalizes token atoms in a protected
+The detailed profiles below describe how those checks work. The standard-v2
+profile uses exact relative context. It normalizes token atoms in a protected
 run, selects the first unique baseline envelope from radii 1 through 16 logical
 lines per side, and binds that selection. Logical lines retain their exact
 newline bytes; BOF/EOF are explicit. Ambiguity at the bound rejects creation.
@@ -141,8 +152,8 @@ replace the entire store with valid historical state.
 Write-through, pre/post rename flushes and atomic rename do not establish a
 physical power-loss guarantee. Device/controller faults and storage caches remain
 outside the bounded process-interruption claim. Exit `3` requires manual
-inspection, not automatic retry. Close is logical retirement and **not secure
-erase**; pending files, encrypted keys and sensitive workspaces can remain.
+inspection, not automatic retry. Close is logical retirement and **not secure erase**;
+pending files, encrypted keys and sensitive workspaces can remain.
 
 Read [confidential-output and disposal instructions](usage.md) before using the
 private path view or handling a candidate. Reporting-channel status is in

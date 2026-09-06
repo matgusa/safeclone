@@ -1,8 +1,16 @@
 # Using safeclone 0.1.0
 
 Run `safeclone --version` to display `safeclone 0.1.0`. Run `safeclone --help`
-for the exact command syntax. Product `status` reports capabilities and safety
-limits; it is distinct from the authenticated state of an individual session.
+for the exact command syntax. `status` shows what the program can do and its
+important limits.
+
+For the basic workflow, use `inspect` and `clone` to examine a folder and make
+a separate copy for AI editing. The `session` commands are the advanced
+edit-and-return workflow: they create a separate AI copy, let you review and
+approve changes, and write reconstructed files. Session status is a read-only
+view of encrypted private session data; it is separate from product status. The
+uppercase names in the command list are placeholders; replace them with your
+own paths or IDs.
 
 ```text
 safeclone status
@@ -16,90 +24,102 @@ safeclone session apply <ORIGINAL> <AI_WORKSPACE> <SENSITIVE_CANDIDATE> --state 
 safeclone session close --state <PRIVATE_SESSION_DIRECTORY> [--acknowledge-incomplete <APPLY_ID>]
 ```
 
-## Locations and one-way output
+## Folders and the cleaned copy
 
-Use [supported local locations](support.md) under your control. Original, AI,
-private-state, one-way output and candidate roots must be separate and
-non-overlapping. New output roots must be absent, with existing parents. Paths
-inside `.git` are rejected; a child `.git` within an ordinary workspace is omitted.
-An existing output is never overwritten. Source code is never executed.
+Use [supported local locations](support.md) under your control. Keep the
+original folder, AI copy, private session data, cleaned-copy output and
+reconstructed files separate; none may contain another. The output folder must
+not exist yet, and its parent folder must already exist. Paths inside `.git` are
+rejected; a `.git` folder inside a normal project is left out. An existing
+output is never overwritten. Source code is never executed.
 
-`inspect` inventories structure and reports aggregate evidence; it creates no
-sanitized workspace. `clone` applies the compiled policy to text and names before
-writing staging, omits unsupported/high-risk entries, verifies the actual tree,
-then promotes it with a no-clobber rename. Detection includes bounded secret
-patterns, conservative sensitive-identifier shapes, sensitive filenames and
-path-component evidence. Extension classification and zero findings do not
-prove safety. Inspect the result before deciding what to share.
+`inspect` looks through the folder structure and reports totals for information
+it recognizes; it creates no output. `clone` checks supported text and names,
+removes or replaces detected values, leaves unsupported or high-risk entries
+out, verifies the separate copy and publishes it only if those checks pass. It
+looks for some secrets and personal identifiers in file contents and names, and
+it can miss things. A folder with no findings is not proven safe. Inspect the
+result before deciding what to share.
 
-## Session workflow
+## Let an AI edit a separate copy
 
-The following example uses paths you must replace with your own locations:
+Use this advanced workflow when you want an AI to edit a separate copy, review
+the changes and bring approved changes back. In technical documentation this
+feature is also called a **round-trip session**. The example uses paths you must
+replace with your own locations:
 
 ```powershell
-safeclone session create 'C:\safeclone-example\original' 'C:\safeclone-example\ai' --state 'C:\safeclone-example\private'
+safeclone session create 'C:\safeclone-example\original' 'C:\safeclone-example\ai-copy' --state 'C:\safeclone-example\private'
 safeclone session status --state 'C:\safeclone-example\private'
 # Edit only the AI workspace, then review those edits.
-safeclone session review 'C:\safeclone-example\original' 'C:\safeclone-example\ai' --state 'C:\safeclone-example\private'
-safeclone session apply 'C:\safeclone-example\original' 'C:\safeclone-example\ai' 'C:\safeclone-example\candidate' --state 'C:\safeclone-example\private'
+safeclone session review 'C:\safeclone-example\original' 'C:\safeclone-example\ai-copy' --state 'C:\safeclone-example\private'
+safeclone session apply 'C:\safeclone-example\original' 'C:\safeclone-example\ai-copy' 'C:\safeclone-example\reconstructed' --state 'C:\safeclone-example\private'
 safeclone session close --state 'C:\safeclone-example\private'
 ```
 
-Apply without approvals works only when the current review permits it. The
-default immutable profile is `standard-v2` (StandardV2). It protects exact token
-cores and unique relative context; ordinary edits outside the protected context
-can remain eligible. Moving tokens between files, changing protected context or
-using ambiguous repeated blocks is rejected. Token-bearing path movement is
-also constrained. See [placement rules](security-model.md#reconstruction).
+Only edit the AI copy. The original is never changed. The reconstructed files
+may contain the original sensitive information again and must not be sent to an
+AI service.
 
-The alternative `--profile strict-token-files-v2` (StrictTokenFilesV2) requires
-explicit review of a token-bearing file edit. It still requires correct token
-identity, multiplicity, file correspondence and all other safety checks. Strict
-approval cannot override an unknown token or unsupported edit. A session cannot
-switch profiles or migrate to a different engine version.
+safeclone checks each approved change against the original and the current AI
+copy so a change is not applied to the wrong file or wrong occurrence. The
+default profile is `standard-v2` (`StandardV2`). It protects the exact value and
+the surrounding text that identify where an approved change belongs. Moving a
+value between files, changing protected surrounding text or creating an
+ambiguous match is rejected. File-name changes involving protected values are
+also constrained. See [placement rules](security-model.md#bringing-approved-edits-back).
 
-`review` produces opaque review and event IDs. One `approve` command accepts one
-eligible event from the current authenticated review, with one of:
+The optional `--profile strict-token-files-v2` (`StrictTokenFilesV2`) profile
+requires explicit review of any AI-copy file that contains a protected value.
+It still rejects unknown values, wrong files, duplicate values and unsupported
+edits. A session cannot switch profiles or migrate to a different engine
+version.
+
+`review` prints opaque review and event IDs, not private paths or matched values.
+One `approve` command accepts one allowed change from the current review, with
+one of:
 
 | Reason code | Eligible intent |
 | --- | --- |
-| `INTENTIONAL_TOKEN_REMOVAL` | Exact permitted token deletion |
-| `INTENTIONAL_FILE_DELETE` | Permitted file deletion |
-| `STRICT_TOKEN_FILE_EDIT_REVIEWED` | Strict profile token-bearing file edit |
+| `INTENTIONAL_TOKEN_REMOVAL` | Remove one exact protected value |
+| `INTENTIONAL_FILE_DELETE` | Delete an allowed file |
+| `STRICT_TOKEN_FILE_EDIT_REVIEWED` | Review a file edit under the strict profile |
 
-Pass the exact canonical `--review-id`, `--event-id` and `--reason-code` to
-`session approve`. Changed inputs invalidate previous review/approval authority.
-Apply re-observes the inputs and verifies the complete approval set. Approval
-does not assess code semantics, authorize disclosure, or approve deployment.
+Pass the exact IDs and reason code to `session approve`. If the original or AI
+copy changes, earlier review/approval information is no longer valid. `apply`
+checks the current folders again. Approval does not judge code meaning or safety,
+authorize disclosure or approve deployment.
 
-Apply creates a new sensitive candidate, including permitted reconstruction and
-byte-exact original-only files. It does not modify Original or build/test the
-edited project. The warning is:
+`apply` writes a new set of reconstructed files, including allowed files kept
+unchanged from the original. Those files may contain original sensitive
+information. It does not modify the original or build/test the edited project.
+The warning is:
 
 ```text
 warning=sensitive candidate contains reconstructed plaintext; semantic safety was not assessed
 ```
 
-An authenticated `APPLIED_COMPLETE` result and verified exact replay establish
-completion; a file named COMPLETE alone does not. Incomplete candidates are
-never resumed or repaired. Status is the authenticated read-only state view.
+A verified `APPLIED_COMPLETE` result confirms completion; a file named COMPLETE
+alone does not. Incomplete reconstructed files are never resumed or repaired.
+Session status is the authenticated, read-only view of the private session data.
 
 ## Confidential output
 
-Normal output contains aggregates and opaque identifiers, not private paths or
+Normal output contains totals and opaque identifiers, not private paths or
 matched values. Review's optional `--show-private-paths` is a confidential view
-of accepted relative-path fields. It first writes and flushes this stderr warning:
+of accepted relative-path fields; it first writes and flushes this stderr warning:
 
 ```text
 warning=confidential review output; do not send to AI or persist in public logs
 ```
 
-Names can be sensitive. Shell history, terminal capture, screenshots and
-redirection can retain them. safeclone writes UTF-8 bytes to redirected output;
-downstream tools may transcode them. Never send Original, private state,
-confidential review output or a sensitive candidate to external AI or public logs.
+File and folder names can be sensitive. Shell history, terminal capture,
+screenshots and redirection can retain them. safeclone writes UTF-8 bytes to
+redirected output; downstream tools may transcode them. Never send the original,
+private session data, confidential review output or reconstructed files to an
+AI service or public logs.
 
-## Failure, retirement and disposal
+## If a command fails
 
 | Exit | Meaning and action |
 | --- | --- |
@@ -107,23 +127,24 @@ confidential review output or a sensitive candidate to external AI or public log
 | `2` | Definite failure; inspect the bounded diagnostic |
 | `3` | Manual or indeterminate artifact state; stop automatic retries and inspect the known locations |
 
-A one-way failure after staging creation retains `.safeclone-staging-v1` for
-manual inspection. Incomplete create/apply, private orphans and uncertain
-commits can retain sensitive data. Do not edit private artifacts, rename pending
-files into authority, or infer completion from filenames.
+If `clone` fails after it has started creating the output,
+`.safeclone-staging-v1` may remain for manual inspection. Incomplete
+edit-and-return operations, private orphan data and uncertain writes can retain
+sensitive data. Do not edit private files, rename pending files into place or
+infer completion from a filename.
 
-`session close` appends authenticated logical retirement. For `APPLY_ARMED` or
+`session close` records that the session is retired. For `APPLY_ARMED` or
 `APPLY_INCOMPLETE`, supply the exact current opaque apply ID with
 `--acknowledge-incomplete`. This accepts responsibility for retained sensitive
-artifacts; it grants no cleanup or resume authority.
+data; it grants no cleanup or resume authority.
 
-Close deletes no workspace, candidate, private generation, manifest or orphan.
-It is **not secure erase**. Retained encrypted material and keys may remain.
-After reviewing status and retention needs, use ordinary file management for
+Close deletes no workspace, reconstructed files, private generation, manifest or
+orphan. It is **not secure erase**. Retained encrypted material and keys may
+remain. After reviewing what you need to keep, use ordinary file management for
 the exact locations you selected. Deletion cannot erase backups, snapshots,
 cloud copies, SSD remapping or memory.
 
 There is no installer or global installation identity. Removing a stopped
-portable executable's directory leaves session/workspace data intact. Use the
-explicit executable you intended. No updater, cross-version session migration,
-or state rollback workflow is supplied.
+executable's folder leaves session/workspace data intact. Use the explicit
+executable you intended. No updater, cross-version session migration or state
+rollback workflow is supplied.
