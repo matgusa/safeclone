@@ -1,0 +1,2209 @@
+{
+  "all_locked_packages": [
+    {
+      "checksum": "c982642fa9e8606056828ee9a8505737230110bb1099153c79efe865c59d12ba",
+      "declared_license": "Unlicense OR MIT",
+      "name": "aho-corasick",
+      "repository": "https://github.com/BurntSushi/aho-corasick",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.1.5"
+    },
+    {
+      "checksum": "e9d4ee0d472d1cd2e28c97dfa124b3d8d992e10eb0a035f33f5d12e3a177ba3b",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "ambient-authority",
+      "repository": "https://github.com/sunfishcode/ambient-authority",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.0.2"
+    },
+    {
+      "checksum": "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "bitflags",
+      "repository": "https://github.com/bitflags/bitflags",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "2.13.1"
+    },
+    {
+      "checksum": "d2f6c7dbe95a6ed67ad9f18e57daf93a2f034c524b99fd2b76d18fdfeb6660aa",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "block-buffer",
+      "repository": "https://github.com/RustCrypto/utils",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.12.1"
+    },
+    {
+      "checksum": "d78e5a3368ae89b7cb68186411452b4b9fac8b41be9c19bf3f47c2d2c8e36e6b",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "cap-fs-ext",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "cdadbd7c002d3a484b35243669abdae85a0ebaded5a61117169dc3400f9a7ff0",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "cap-primitives",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "7281235d6e96d3544ca18bba9049be92f4190f8d923e3caef1b5f66cfa752608",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "cap-std",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "faed1a83001dc2c9201451030cc317e35bef36c84d3781d7c5bb9f343c397da8",
+      "declared_license": "MIT",
+      "name": "cbor4ii",
+      "repository": "https://github.com/quininer/cbor4ii",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.2.2"
+    },
+    {
+      "checksum": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "cfg-if",
+      "repository": "https://github.com/rust-lang/cfg-if",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.0.4"
+    },
+    {
+      "checksum": "0c9ea0ac24bc397ab3c98583a3c9ba74fa56b09a4449bbe172b9b1ddb016027a",
+      "declared_license": "Apache-2.0 OR MIT",
+      "name": "cmov",
+      "repository": "https://github.com/RustCrypto/utils",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.5.4"
+    },
+    {
+      "checksum": "8b2a41393f66f16b0823bb79094d54ac5fbd34ab292ddafb9a0456ac9f87d201",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "cpufeatures",
+      "repository": "https://github.com/RustCrypto/utils",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.3.0"
+    },
+    {
+      "checksum": "ce6e4c961d6cd6c9a86db418387425e8bdeaf05b3c8bc1411e6dca4c252f1453",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "crypto-common",
+      "repository": "https://github.com/RustCrypto/traits",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.2.2"
+    },
+    {
+      "checksum": "7d5515a3834141de9eafb9717ad39eea8247b5674e6066c404e8c4b365d2a29e",
+      "declared_license": "Apache-2.0 OR MIT",
+      "name": "ctutils",
+      "repository": "https://github.com/RustCrypto/utils",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.4.2"
+    },
+    {
+      "checksum": "a4ae5f15dda3c708c0ade84bfee31ccab44a3da4f88015ed22f63732abe300c8",
+      "declared_license": "MIT",
+      "name": "data-encoding",
+      "repository": "https://github.com/ia0/data-encoding",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "2.11.0"
+    },
+    {
+      "checksum": "f1dd6dbb5841937940781866fa1281a1ff7bd3bf827091440879f9994983d5c2",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "digest",
+      "repository": "https://github.com/RustCrypto/traits",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.11.3"
+    },
+    {
+      "checksum": "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "errno",
+      "repository": "https://github.com/lambda-fairy/rust-errno",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.3.14"
+    },
+    {
+      "checksum": "94e7099f6313ecacbe1256e8ff9d617b75d1bcb16a6fddef94866d225a01a14a",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "fs-set-times",
+      "repository": "https://github.com/bytecodealliance/fs-set-times",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.20.3"
+    },
+    {
+      "checksum": "4aaa26c720c68b866f2c96ef5c1264b3e6f473fe5d4ce61cd44bbe913e553018",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "hkdf",
+      "repository": "https://github.com/RustCrypto/KDFs/",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.13.0"
+    },
+    {
+      "checksum": "6303bc9732ae41b04cb554b844a762b4115a61bfaa81e3e83050991eeb56863f",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "hmac",
+      "repository": "https://github.com/RustCrypto/MACs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.13.0"
+    },
+    {
+      "checksum": "707114b52a152fa7bdb290cd7cd5912d9467273b6d74e21b8d81aca1f8533f6b",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "hybrid-array",
+      "repository": "https://github.com/RustCrypto/hybrid-array",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.4.14"
+    },
+    {
+      "checksum": "20fd6de4ccfcc187e38bc21cfa543cb5a302cb86a8b114eb7f0bf0dc9f8ac00f",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "io-extras",
+      "repository": "https://github.com/sunfishcode/io-extras",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.19.0"
+    },
+    {
+      "checksum": "06432fb54d3be7964ecd3649233cddf80db2832f47fec34c01f65b3d9d774983",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "io-lifetimes",
+      "repository": "https://github.com/sunfishcode/io-lifetimes",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "2.0.4"
+    },
+    {
+      "checksum": "2f0fb0570afe1fed943c5c3d4102d5358592d8625fda6a0007fdbe65a92fba96",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "io-lifetimes",
+      "repository": "https://github.com/sunfishcode/io-lifetimes",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "3.0.1"
+    },
+    {
+      "checksum": "6a756c3fac73139e83f14c2d742155dd2b78d3ee56597b419a0579b7bdd6dd78",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "ipnet",
+      "repository": "https://github.com/krisprice/ipnet",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "2.12.1"
+    },
+    {
+      "checksum": "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "libc",
+      "repository": "https://github.com/rust-lang/libc",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.2.189"
+    },
+    {
+      "checksum": "32a66949e030da00e8c7d4434b251670a91556f4144941d37452769c25d58a53",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "linux-raw-sys",
+      "repository": "https://github.com/sunfishcode/linux-raw-sys",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.12.1"
+    },
+    {
+      "checksum": "4facc753ae494aeb6e3c22f839b158aebd4f9270f55cd3c79906c45476c47ab4",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "maybe-owned",
+      "repository": "https://github.com/rustonaut/maybe-owned",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.3.4"
+    },
+    {
+      "checksum": "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98",
+      "declared_license": "Unlicense OR MIT",
+      "name": "memchr",
+      "repository": "https://github.com/BurntSushi/memchr",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "2.8.3"
+    },
+    {
+      "checksum": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "once_cell",
+      "repository": "https://github.com/matklad/once_cell",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.21.4"
+    },
+    {
+      "checksum": "f020237b6c8eed93db2e2cb53c00c60a8e1bc73da7d073199a1180401450218d",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "regex",
+      "repository": "https://github.com/rust-lang/regex",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.13.1"
+    },
+    {
+      "checksum": "ad8553b9b26413251cbf30e620595c7a41b3887f03da04579c0e6b0d6a06b4b2",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "regex-automata",
+      "repository": "https://github.com/rust-lang/regex",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.4.18"
+    },
+    {
+      "checksum": "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "regex-syntax",
+      "repository": "https://github.com/rust-lang/regex",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.8.11"
+    },
+    {
+      "checksum": "b6fe4565b9518b83ef4f91bb47ce29620ca828bd32cb7e408f0062e9930ba190",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "rustix",
+      "repository": "https://github.com/bytecodealliance/rustix",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.1.4"
+    },
+    {
+      "checksum": "2fc84bf7e9aa16c4f2c758f27412dc9841341e16aa682d9c7ac308fe3ee12056",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "rustix-linux-procfs",
+      "repository": "https://github.com/sunfishcode/rustix-linux-procfs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.1.1"
+    },
+    {
+      "checksum": "446ba717509524cb3f22f17ecc096f10f4822d76ab5c0b9822c5f9c284e825f4",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "sha2",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.11.0"
+    },
+    {
+      "checksum": "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "typenum",
+      "repository": "https://github.com/paholg/typenum",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "1.20.1"
+    },
+    {
+      "checksum": "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-link",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.2.1"
+    },
+    {
+      "checksum": "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-sys",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.59.0"
+    },
+    {
+      "checksum": "f2f500e4d28234f72040990ec9d39e3a6b950f9f22d3dba18416c35882612bcb",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-sys",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.60.2"
+    },
+    {
+      "checksum": "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-sys",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.61.2"
+    },
+    {
+      "checksum": "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-targets",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "4945f9f551b88e0d65f3db0bc25c33b8acea4d9e41163edf90dcd0b19f9069f3",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows-targets",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.5"
+    },
+    {
+      "checksum": "32a4622180e7a0ec044bb555404c800bc9fd9ec262ec147edd5989ccd0c02cd3",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_aarch64_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "a9d8416fa8b42f5c947f8482c43e7d89e73a173cead56d044f6a56104a6d1b53",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_aarch64_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "09ec2a7bb152e2252b53fa7803150007879548bc709c039df7627cabbd05d469",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_aarch64_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "b9d782e804c2f632e395708e99a94275910eb9100b2114651e04744e9b125006",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_aarch64_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "8e9b5ad5ab802e97eb8e295ac6720e509ee4c243f69d781394014ebfe8bbfa0b",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_gnu",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "960e6da069d81e09becb0ca57a65220ddff016ff2d6af6a223cf372a506593a3",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_gnu",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "0eee52d38c090b3caa76c563b86c3a4bd71ef1a819287c19d586d7334ae8ed66",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "fa7359d10048f68ab8b09fa71c3daccfb0e9b559aed648a8f95469c27057180c",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "240948bc05c5e7c6dabba28bf89d89ffce3e303022809e73deaefe4f6ec56c66",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "1e7ac75179f18232fe9c285163565a57ef8d3c89254a30685b57d83a38d326c2",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_i686_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "147a5c80aabfbf0c7d901cb5895d1de30ef2907eb21fbbab29ca94c5b08b1a78",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_gnu",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "9c3842cdd74a865a8066ab39c8a7a473c0778a3f29370b5fd6b4b9aa7df4a499",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_gnu",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "24d5b23dc417412679681396f2b49f3de8c1473deb516bd34410872eff51ed0d",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "0ffa179e2d07eee8ad8f57493436566c7cc30ac536a3379fdf008f47f6bb7ae1",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_gnullvm",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "d6bbff5f0aada427a1e5a6da5f1f98158182f26556f345ac9e04d36d0ebed650",
+      "declared_license": "MIT OR Apache-2.0",
+      "name": "windows_x86_64_msvc",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "3f3fd376f71958b862e7afb20cfe5a22830e1963462f3a17f49d82a6c1d1f42d",
+      "declared_license": "Apache-2.0 WITH LLVM-exception",
+      "name": "winx",
+      "repository": "https://github.com/sunfishcode/winx",
+      "source": "registry+https://github.com/rust-lang/crates.io-index",
+      "vendored": false,
+      "version": "0.36.4"
+    }
+  ],
+  "cargo_lock_sha256": "2b485ba1a85ffff80ec3082cd3a6e9ad9e29fc35084fcff881bfbb320e3334cd",
+  "components": [
+    {
+      "checksum": null,
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "id": "rust-standard-library@1.97.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/rust-MIT.txt",
+          "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0",
+          "source_file": "MIT.txt"
+        },
+        {
+          "file": "third_party/licenses/rust-Unicode-3.0.txt",
+          "sha256": "f5062c9a188d81dfe66b56db4182dcf9e4b17c0d9b0d311a8e20b3a1b075c443",
+          "source_file": "Unicode-3.0.txt"
+        },
+        {
+          "file": "third_party/licenses/rust-COPYRIGHT.txt",
+          "sha256": "108da6387446411e913c57164f4ab2d88a287f1182939f9bcddde82896ef831a",
+          "source_file": "COPYRIGHT-library.html (Windows-relevant notices)"
+        }
+      ],
+      "name": "rust-standard-library",
+      "repository": "https://github.com/rust-lang/rust",
+      "selected_license": "MIT AND Unicode-3.0",
+      "vcs": "8bab26f4f68e0e26f0bb7960be334d5b520ea452",
+      "version": "1.97.1"
+    },
+    {
+      "checksum": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "id": "rust-std-cfg-if@1.0.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/rust-std-cfg-if-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "rust-std-cfg-if",
+      "repository": "https://github.com/rust-lang/cfg-if",
+      "selected_license": "MIT",
+      "vcs": "3510ca6abea34cbbc702509a4e50ea9709925eda",
+      "version": "1.0.4"
+    },
+    {
+      "checksum": "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "id": "rust-std-hashbrown@0.17.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/rust-std-hashbrown-MIT.txt",
+          "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "rust-std-hashbrown",
+      "repository": "https://github.com/rust-lang/hashbrown",
+      "selected_license": "MIT",
+      "vcs": "c62a63a61b7caf2de8f9ecb7b06a66b0ab6bdf3d",
+      "version": "0.17.1"
+    },
+    {
+      "checksum": "b50b8869d9fc858ce7266cce0194bd74df58b9d0e3f6df3a9fc8eb470d95c09d",
+      "declared_license": "MIT/Apache-2.0",
+      "dependencies": [],
+      "id": "rust-std-rustc-demangle@0.1.27",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/rust-std-rustc-demangle-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "rust-std-rustc-demangle",
+      "repository": "https://github.com/rust-lang/rustc-demangle",
+      "selected_license": "MIT",
+      "vcs": "f65a6d8f63a7656c71649d92ff3cb000951c11a6",
+      "version": "0.1.27"
+    },
+    {
+      "checksum": null,
+      "declared_license": "MIT AND Apache-2.0 WITH LLVM-exception AND (MIT OR Apache-2.0)",
+      "dependencies": [],
+      "id": "rust-compiler-builtins@0.1.160",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/compiler-builtins-LICENSE.txt",
+          "sha256": "ab6eec6caf0fa5775e411c7a8bc6a45c4ef2956b0980b157ab74fc5cd62a928b",
+          "source_file": "LICENSE.txt"
+        },
+        {
+          "file": "third_party/licenses/compiler-builtins-libm-LICENSE.txt",
+          "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7",
+          "source_file": "LICENSE.txt"
+        },
+        {
+          "file": "third_party/licenses/compiler-builtins-supplemental.txt",
+          "sha256": "856f1b37d89ae823ae78c8a79e9fc615aef246a63e8efefbdbe8605c579b1cf4",
+          "source_file": "compiler-builtins/src and libm/src copyright/permission comments (common/x86)"
+        }
+      ],
+      "name": "rust-compiler-builtins",
+      "repository": "https://github.com/rust-lang/rust",
+      "selected_license": "MIT AND Apache-2.0 WITH LLVM-exception AND LicenseRef-CompilerBuiltins-Supplemental",
+      "vcs": "8bab26f4f68e0e26f0bb7960be334d5b520ea452",
+      "version": "0.1.160"
+    },
+    {
+      "checksum": null,
+      "declared_license": "Apache-2.0",
+      "dependencies": [],
+      "id": "context-armor-filename-port@e31f607",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/context-armor-Apache-2.0.txt",
+          "sha256": "a378bd6f511a9269010dcf0998c9b2832ef281de57cfef59b9d47dd1620f3b9d",
+          "source_file": "context-armor-Apache-2.0.txt"
+        }
+      ],
+      "name": "context-armor-filename-port",
+      "repository": "https://github.com/feelyday/context-armor",
+      "selected_license": "Apache-2.0",
+      "vcs": "e31f60715c102cf92d3efbef304202da1284d5fe",
+      "version": "e31f607"
+    },
+    {
+      "checksum": null,
+      "declared_license": "MIT",
+      "dependencies": [],
+      "id": "gitleaks-github-token-port@b58d3f1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/gitleaks-MIT.txt",
+          "sha256": "e3884b252b3bfc045e55be43a34d1e80da070bc6f804ac95bf4660e97d62ebc6",
+          "source_file": "gitleaks-MIT.txt"
+        }
+      ],
+      "name": "gitleaks-github-token-port",
+      "repository": "https://github.com/gitleaks/gitleaks",
+      "selected_license": "MIT",
+      "vcs": "b58d3f102cf3a2c84cb7f923d05c25c9b1aed84b",
+      "version": "b58d3f1"
+    },
+    {
+      "checksum": "85ee016af5d736b69fc89e19254540fa4b5f5492853fb5503920f084011c78b6",
+      "declared_license": "Apache-2.0",
+      "dependencies": [],
+      "id": "similar-myers-core-port@3.1.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/similar-Apache-2.0.txt",
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "source_file": "similar-Apache-2.0.txt"
+        }
+      ],
+      "name": "similar-myers-core-port",
+      "repository": "https://github.com/mitsuhiko/similar",
+      "selected_license": "Apache-2.0",
+      "vcs": "71f0a30e449f857aec934b839cc4c9ca5b21eb26",
+      "version": "3.1.2"
+    }
+  ],
+  "license_files": [
+    {
+      "file": "third_party/licenses/aho-corasick-1.1.5-LICENSE-MIT.txt",
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+    },
+    {
+      "file": "third_party/licenses/ambient-authority-0.0.2-COPYRIGHT.txt",
+      "sha256": "d00d6d48df2db6f91e4ca9c656e5e30782d5becf52bb3e5bfd0aff467bd37781"
+    },
+    {
+      "file": "third_party/licenses/ambient-authority-0.0.2-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/bitflags-2.13.1-LICENSE-MIT.txt",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "file": "third_party/licenses/block-buffer-0.12.1-LICENSE-MIT.txt",
+      "sha256": "98181e7249d0c01737645ec982499ce99a0f07eb8f7d625b8840d799d10dbc01"
+    },
+    {
+      "file": "third_party/licenses/cap-fs-ext-4.0.2-COPYRIGHT.txt",
+      "sha256": "5b3d8a674979e158328c57f5c4cc12150df79d0bdf12c86eafc2e9c6006a2d4e"
+    },
+    {
+      "file": "third_party/licenses/cap-fs-ext-4.0.2-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/cap-primitives-4.0.2-COPYRIGHT.txt",
+      "sha256": "a8799c2a07dabcb8d52481f885c5ab7000acb8a4d3cd9503fbcb97c84d350e65"
+    },
+    {
+      "file": "third_party/licenses/cap-primitives-4.0.2-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/cap-std-4.0.2-COPYRIGHT.txt",
+      "sha256": "6b1691fdee3b03c3946696a7be125fcf50eff310b9486fac850c1b8aea91478b"
+    },
+    {
+      "file": "third_party/licenses/cap-std-4.0.2-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/cbor4ii-1.2.2-LICENSE.txt",
+      "sha256": "3f09ca77e208780d4b2c1b6e8e3404cb747c540b766a5292d7cbe8a196d3f844"
+    },
+    {
+      "file": "third_party/licenses/cfg-if-1.0.4-LICENSE-MIT.txt",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "third_party/licenses/cmov-0.5.4-LICENSE-MIT.txt",
+      "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9"
+    },
+    {
+      "file": "third_party/licenses/compiler-builtins-LICENSE.txt",
+      "sha256": "ab6eec6caf0fa5775e411c7a8bc6a45c4ef2956b0980b157ab74fc5cd62a928b"
+    },
+    {
+      "file": "third_party/licenses/compiler-builtins-libm-LICENSE.txt",
+      "sha256": "3823dda7cf046602f4b4e77ec8e227863dc4736037cc85bb33d9f19febe16bb7"
+    },
+    {
+      "file": "third_party/licenses/compiler-builtins-supplemental.txt",
+      "sha256": "856f1b37d89ae823ae78c8a79e9fc615aef246a63e8efefbdbe8605c579b1cf4"
+    },
+    {
+      "file": "third_party/licenses/context-armor-Apache-2.0.txt",
+      "sha256": "a378bd6f511a9269010dcf0998c9b2832ef281de57cfef59b9d47dd1620f3b9d"
+    },
+    {
+      "file": "third_party/licenses/cpufeatures-0.3.0-LICENSE-MIT.txt",
+      "sha256": "ae9baa7beea910273c2f384c2a6b721fb7bd02bda3436074a1072e4ee689f985"
+    },
+    {
+      "file": "third_party/licenses/crypto-common-0.2.2-LICENSE-MIT.txt",
+      "sha256": "d2e7ec5355c96eeade56b09187ceb48a6a30299da3ce7531a66d3d11405ab963"
+    },
+    {
+      "file": "third_party/licenses/ctutils-0.4.2-LICENSE-MIT.txt",
+      "sha256": "91585c36e4fb9ab4ca0d3dfac5d66d3c0c62cc51f640a0e1196542daf2267eae"
+    },
+    {
+      "file": "third_party/licenses/data-encoding-2.11.0-LICENSE.txt",
+      "sha256": "b68ad1a3367b825447089e1f8d6829b97f47a89eb78d2f4ebaef4672f5606186"
+    },
+    {
+      "file": "third_party/licenses/digest-0.11.3-LICENSE-MIT.txt",
+      "sha256": "af59cea35d7f5e2777a713b8d155d65efa2c339eb43f3c14e868c6ac8506edad"
+    },
+    {
+      "file": "third_party/licenses/fs-set-times-0.20.3-COPYRIGHT.txt",
+      "sha256": "e196ffeb5ab101e9ec8bbe395c9f367c5380ee2d28c47e5c03371523798a9af7"
+    },
+    {
+      "file": "third_party/licenses/fs-set-times-0.20.3-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/gitleaks-MIT.txt",
+      "sha256": "e3884b252b3bfc045e55be43a34d1e80da070bc6f804ac95bf4660e97d62ebc6"
+    },
+    {
+      "file": "third_party/licenses/hkdf-0.13.0-LICENSE-MIT.txt",
+      "sha256": "d288f9c9b4590446ec18c22ead8f8b5a12a3d4025b68f62dc9015063eb9cca69"
+    },
+    {
+      "file": "third_party/licenses/hmac-0.13.0-LICENSE-MIT.txt",
+      "sha256": "9e0dfd2dd4173a530e238cb6adb37aa78c34c6bc7444e0e10c1ab5d8881f63ba"
+    },
+    {
+      "file": "third_party/licenses/hybrid-array-0.4.14-LICENSE-MIT.txt",
+      "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9"
+    },
+    {
+      "file": "third_party/licenses/io-extras-0.19.0-COPYRIGHT.txt",
+      "sha256": "f0c1d22de8bd3b776a40f2691f08b84e91c7bafc78b72a51150e231002b88db3"
+    },
+    {
+      "file": "third_party/licenses/io-extras-0.19.0-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/io-lifetimes-2.0.4-COPYRIGHT.txt",
+      "sha256": "495c30b45120f8af07cfa26eb9cb1ebfe8324560dca2b3b1e76cad1b9b6b489a"
+    },
+    {
+      "file": "third_party/licenses/io-lifetimes-2.0.4-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/io-lifetimes-3.0.1-COPYRIGHT.txt",
+      "sha256": "495c30b45120f8af07cfa26eb9cb1ebfe8324560dca2b3b1e76cad1b9b6b489a"
+    },
+    {
+      "file": "third_party/licenses/io-lifetimes-3.0.1-LICENSE-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/ipnet-2.12.1-LICENSE-MIT.txt",
+      "sha256": "47dc9ff29128ddfb4d6a0435383c9f89120bc374dbcc1dd00b933a0b28aa7865"
+    },
+    {
+      "file": "third_party/licenses/maybe-owned-0.3.4-LICENSE-MIT.txt",
+      "sha256": "ef2b3bbd7b718a7881253226313f103e89b379e1279681a3c1ebcb65a27d209d"
+    },
+    {
+      "file": "third_party/licenses/memchr-2.8.3-LICENSE-MIT.txt",
+      "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f"
+    },
+    {
+      "file": "third_party/licenses/regex-1.13.1-LICENSE-MIT.txt",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "file": "third_party/licenses/regex-automata-0.4.18-LICENSE-MIT.txt",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "file": "third_party/licenses/regex-syntax-0.8.11-LICENSE-MIT.txt",
+      "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+    },
+    {
+      "file": "third_party/licenses/regex-syntax-0.8.11-LICENSE-UNICODE.txt",
+      "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3"
+    },
+    {
+      "file": "third_party/licenses/rust-COPYRIGHT.txt",
+      "sha256": "108da6387446411e913c57164f4ab2d88a287f1182939f9bcddde82896ef831a"
+    },
+    {
+      "file": "third_party/licenses/rust-MIT.txt",
+      "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0"
+    },
+    {
+      "file": "third_party/licenses/rust-Unicode-3.0.txt",
+      "sha256": "f5062c9a188d81dfe66b56db4182dcf9e4b17c0d9b0d311a8e20b3a1b075c443"
+    },
+    {
+      "file": "third_party/licenses/rust-std-cfg-if-MIT.txt",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "third_party/licenses/rust-std-hashbrown-MIT.txt",
+      "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2"
+    },
+    {
+      "file": "third_party/licenses/rust-std-rustc-demangle-MIT.txt",
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+    },
+    {
+      "file": "third_party/licenses/rustix-COPYRIGHT.txt",
+      "sha256": "377c2e7c53250cc5905c0b0532d35973392af16ffb9596a41d99d202cf3617c9"
+    },
+    {
+      "file": "third_party/licenses/rustix-MIT.txt",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+    },
+    {
+      "file": "third_party/licenses/sha2-0.11.0-LICENSE-MIT.txt",
+      "sha256": "831e0f43ad0bf014c1c4fec5767aae470434c1d66d6e671be2d823e729063e25"
+    },
+    {
+      "file": "third_party/licenses/similar-Apache-2.0.txt",
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "file": "third_party/licenses/typenum-1.20.1-LICENSE-MIT.txt",
+      "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f"
+    },
+    {
+      "file": "third_party/licenses/windows-link-0.2.1-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows-sys-0.59.0-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows-sys-0.60.2-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows-sys-0.61.2-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows-targets-0.52.6-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows-targets-0.53.5-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows_x86_64_msvc-0.52.6-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/windows_x86_64_msvc-0.53.1-license-mit.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "third_party/licenses/winx-0.36.4-LICENSE.txt",
+      "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+    }
+  ],
+  "packages": [
+    {
+      "checksum": "c982642fa9e8606056828ee9a8505737230110bb1099153c79efe865c59d12ba",
+      "declared_license": "Unlicense OR MIT",
+      "dependencies": [
+        "memchr@2.8.3"
+      ],
+      "direct": false,
+      "features": [
+        "perf-literal",
+        "std"
+      ],
+      "id": "aho-corasick@1.1.5",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/aho-corasick-1.1.5-LICENSE-MIT.txt",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "aho-corasick",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/BurntSushi/aho-corasick",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "5178060ce73d91938f8582d0360e3be031380440"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "1.1.5"
+    },
+    {
+      "checksum": "e9d4ee0d472d1cd2e28c97dfa124b3d8d992e10eb0a035f33f5d12e3a177ba3b",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "ambient-authority@0.0.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/ambient-authority-0.0.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/ambient-authority-0.0.2-COPYRIGHT.txt",
+          "sha256": "d00d6d48df2db6f91e4ca9c656e5e30782d5becf52bb3e5bfd0aff467bd37781",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "ambient-authority",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/sunfishcode/ambient-authority",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "d0d3c2d5c3fb00b027dfbd2e9041f686d7529775"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "0.0.2"
+    },
+    {
+      "checksum": "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "std"
+      ],
+      "id": "bitflags@2.13.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/bitflags-2.13.1-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "bitflags",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/bitflags/bitflags",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "f92a2921b41644b02ca5d50a6ace542e309e6a6f"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "2.13.1"
+    },
+    {
+      "checksum": "d2f6c7dbe95a6ed67ad9f18e57daf93a2f034c524b99fd2b76d18fdfeb6660aa",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "hybrid-array@0.4.14"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "block-buffer@0.12.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/block-buffer-0.12.1-LICENSE-MIT.txt",
+          "sha256": "98181e7249d0c01737645ec982499ce99a0f07eb8f7d625b8840d799d10dbc01",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "block-buffer",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "cbd0963c685df025c42bed31f78c50d1bada3805"
+        },
+        "path_in_vcs": "block-buffer"
+      },
+      "version": "0.12.1"
+    },
+    {
+      "checksum": "d78e5a3368ae89b7cb68186411452b4b9fac8b41be9c19bf3f47c2d2c8e36e6b",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [
+        "cap-primitives@4.0.2",
+        "cap-std@4.0.2",
+        "io-lifetimes@3.0.1",
+        "windows-sys@0.61.2"
+      ],
+      "direct": true,
+      "features": [
+        "cap-std",
+        "default",
+        "std"
+      ],
+      "id": "cap-fs-ext@4.0.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cap-fs-ext-4.0.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/cap-fs-ext-4.0.2-COPYRIGHT.txt",
+          "sha256": "5b3d8a674979e158328c57f5c4cc12150df79d0bdf12c86eafc2e9c6006a2d4e",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "cap-fs-ext",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "715e4ed607ae9a93c7446b0fa63296f7898831c2"
+        },
+        "path_in_vcs": "cap-fs-ext"
+      },
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "cdadbd7c002d3a484b35243669abdae85a0ebaded5a61117169dc3400f9a7ff0",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [
+        "ambient-authority@0.0.2",
+        "fs-set-times@0.20.3",
+        "io-extras@0.19.0",
+        "io-lifetimes@3.0.1",
+        "ipnet@2.12.1",
+        "maybe-owned@0.3.4",
+        "windows-sys@0.61.2",
+        "winx@0.36.4"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "cap-primitives@4.0.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cap-primitives-4.0.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/cap-primitives-4.0.2-COPYRIGHT.txt",
+          "sha256": "a8799c2a07dabcb8d52481f885c5ab7000acb8a4d3cd9503fbcb97c84d350e65",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "cap-primitives",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "715e4ed607ae9a93c7446b0fa63296f7898831c2"
+        },
+        "path_in_vcs": "cap-primitives"
+      },
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "7281235d6e96d3544ca18bba9049be92f4190f8d923e3caef1b5f66cfa752608",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [
+        "cap-primitives@4.0.2",
+        "io-extras@0.19.0",
+        "io-lifetimes@3.0.1"
+      ],
+      "direct": true,
+      "features": [
+        "default"
+      ],
+      "id": "cap-std@4.0.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cap-std-4.0.2-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/cap-std-4.0.2-COPYRIGHT.txt",
+          "sha256": "6b1691fdee3b03c3946696a7be125fcf50eff310b9486fac850c1b8aea91478b",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "cap-std",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/bytecodealliance/cap-std",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "715e4ed607ae9a93c7446b0fa63296f7898831c2"
+        },
+        "path_in_vcs": "cap-std"
+      },
+      "version": "4.0.2"
+    },
+    {
+      "checksum": "faed1a83001dc2c9201451030cc317e35bef36c84d3781d7c5bb9f343c397da8",
+      "declared_license": "MIT",
+      "dependencies": [],
+      "direct": true,
+      "features": [
+        "use_alloc"
+      ],
+      "id": "cbor4ii@1.2.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cbor4ii-1.2.2-LICENSE.txt",
+          "sha256": "3f09ca77e208780d4b2c1b6e8e3404cb747c540b766a5292d7cbe8a196d3f844",
+          "source_file": "LICENSE"
+        }
+      ],
+      "name": "cbor4ii",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/quininer/cbor4ii",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "7a496cb5186d839eac94ee425cd62132a6f149fb"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "1.2.2"
+    },
+    {
+      "checksum": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "cfg-if@1.0.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cfg-if-1.0.4-LICENSE-MIT.txt",
+          "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "cfg-if",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/rust-lang/cfg-if",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "3510ca6abea34cbbc702509a4e50ea9709925eda"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "1.0.4"
+    },
+    {
+      "checksum": "0c9ea0ac24bc397ab3c98583a3c9ba74fa56b09a4449bbe172b9b1ddb016027a",
+      "declared_license": "Apache-2.0 OR MIT",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "cmov@0.5.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cmov-0.5.4-LICENSE-MIT.txt",
+          "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "cmov",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "5c7e4f9bb31af81bf766360e836b6d633b84dbff"
+        },
+        "path_in_vcs": "cmov"
+      },
+      "version": "0.5.4"
+    },
+    {
+      "checksum": "8b2a41393f66f16b0823bb79094d54ac5fbd34ab292ddafb9a0456ac9f87d201",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "cpufeatures@0.3.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/cpufeatures-0.3.0-LICENSE-MIT.txt",
+          "sha256": "ae9baa7beea910273c2f384c2a6b721fb7bd02bda3436074a1072e4ee689f985",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "cpufeatures",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "31e6ec3727f11f9f5e0c106e282014653a4d7bb7"
+        },
+        "path_in_vcs": "cpufeatures"
+      },
+      "version": "0.3.0"
+    },
+    {
+      "checksum": "ce6e4c961d6cd6c9a86db418387425e8bdeaf05b3c8bc1411e6dca4c252f1453",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "hybrid-array@0.4.14"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "crypto-common@0.2.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/crypto-common-0.2.2-LICENSE-MIT.txt",
+          "sha256": "d2e7ec5355c96eeade56b09187ceb48a6a30299da3ce7531a66d3d11405ab963",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "crypto-common",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/traits",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "93dee26c6bde3741a197f1c5f6b7baac277705f3"
+        },
+        "path_in_vcs": "crypto-common"
+      },
+      "version": "0.2.2"
+    },
+    {
+      "checksum": "7d5515a3834141de9eafb9717ad39eea8247b5674e6066c404e8c4b365d2a29e",
+      "declared_license": "Apache-2.0 OR MIT",
+      "dependencies": [
+        "cmov@0.5.4"
+      ],
+      "direct": true,
+      "features": [],
+      "id": "ctutils@0.4.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/ctutils-0.4.2-LICENSE-MIT.txt",
+          "sha256": "91585c36e4fb9ab4ca0d3dfac5d66d3c0c62cc51f640a0e1196542daf2267eae",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "ctutils",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/utils",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "53f7fc3fa806e6d4e9650675e7b97d3621cff340"
+        },
+        "path_in_vcs": "ctutils"
+      },
+      "version": "0.4.2"
+    },
+    {
+      "checksum": "a4ae5f15dda3c708c0ade84bfee31ccab44a3da4f88015ed22f63732abe300c8",
+      "declared_license": "MIT",
+      "dependencies": [],
+      "direct": true,
+      "features": [
+        "alloc"
+      ],
+      "id": "data-encoding@2.11.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/data-encoding-2.11.0-LICENSE.txt",
+          "sha256": "b68ad1a3367b825447089e1f8d6829b97f47a89eb78d2f4ebaef4672f5606186",
+          "source_file": "LICENSE"
+        }
+      ],
+      "name": "data-encoding",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/ia0/data-encoding",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "b4d20e0eeae49cd3514127f2f12048522165b198"
+        },
+        "path_in_vcs": "lib"
+      },
+      "version": "2.11.0"
+    },
+    {
+      "checksum": "f1dd6dbb5841937940781866fa1281a1ff7bd3bf827091440879f9994983d5c2",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "block-buffer@0.12.1",
+        "crypto-common@0.2.2",
+        "ctutils@0.4.2"
+      ],
+      "direct": false,
+      "features": [
+        "block-api",
+        "default",
+        "mac"
+      ],
+      "id": "digest@0.11.3",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/digest-0.11.3-LICENSE-MIT.txt",
+          "sha256": "af59cea35d7f5e2777a713b8d155d65efa2c339eb43f3c14e868c6ac8506edad",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "digest",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/traits",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "2fb9ed8922e244117040bb037a7d141a6a2b8228"
+        },
+        "path_in_vcs": "digest"
+      },
+      "version": "0.11.3"
+    },
+    {
+      "checksum": "94e7099f6313ecacbe1256e8ff9d617b75d1bcb16a6fddef94866d225a01a14a",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [
+        "io-lifetimes@2.0.4",
+        "windows-sys@0.59.0"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "fs-set-times@0.20.3",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/fs-set-times-0.20.3-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/fs-set-times-0.20.3-COPYRIGHT.txt",
+          "sha256": "e196ffeb5ab101e9ec8bbe395c9f367c5380ee2d28c47e5c03371523798a9af7",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "fs-set-times",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/bytecodealliance/fs-set-times",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "56406c912238a253f01f10446541f2cf2d9a88c3"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "0.20.3"
+    },
+    {
+      "checksum": "4aaa26c720c68b866f2c96ef5c1264b3e6f473fe5d4ce61cd44bbe913e553018",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "hmac@0.13.0"
+      ],
+      "direct": true,
+      "features": [],
+      "id": "hkdf@0.13.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/hkdf-0.13.0-LICENSE-MIT.txt",
+          "sha256": "d288f9c9b4590446ec18c22ead8f8b5a12a3d4025b68f62dc9015063eb9cca69",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "hkdf",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/KDFs/",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "bfb3b209abeeaa02277935b167e06bac320b2773"
+        },
+        "path_in_vcs": "hkdf"
+      },
+      "version": "0.13.0"
+    },
+    {
+      "checksum": "6303bc9732ae41b04cb554b844a762b4115a61bfaa81e3e83050991eeb56863f",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "digest@0.11.3"
+      ],
+      "direct": true,
+      "features": [],
+      "id": "hmac@0.13.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/hmac-0.13.0-LICENSE-MIT.txt",
+          "sha256": "9e0dfd2dd4173a530e238cb6adb37aa78c34c6bc7444e0e10c1ab5d8881f63ba",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "hmac",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/MACs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "0236c8eb50098dd7f277a71ab89caaeb1e7314df"
+        },
+        "path_in_vcs": "hmac"
+      },
+      "version": "0.13.0"
+    },
+    {
+      "checksum": "707114b52a152fa7bdb290cd7cd5912d9467273b6d74e21b8d81aca1f8533f6b",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "typenum@1.20.1"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "hybrid-array@0.4.14",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/hybrid-array-0.4.14-LICENSE-MIT.txt",
+          "sha256": "70c9d40f1f9545c3f133b8a67206e89da850f6468eed072281bb3701514114a9",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "hybrid-array",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/hybrid-array",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "1b65ce708c931d27b2a17400d0dad92500f23f30"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "0.4.14"
+    },
+    {
+      "checksum": "20fd6de4ccfcc187e38bc21cfa543cb5a302cb86a8b114eb7f0bf0dc9f8ac00f",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [
+        "io-lifetimes@3.0.1",
+        "windows-sys@0.60.2"
+      ],
+      "direct": false,
+      "features": [
+        "default"
+      ],
+      "id": "io-extras@0.19.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/io-extras-0.19.0-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/io-extras-0.19.0-COPYRIGHT.txt",
+          "sha256": "f0c1d22de8bd3b776a40f2691f08b84e91c7bafc78b72a51150e231002b88db3",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "io-extras",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/sunfishcode/io-extras",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "943084024810db2d674050af664a1e10c81b58a0"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "0.19.0"
+    },
+    {
+      "checksum": "06432fb54d3be7964ecd3649233cddf80db2832f47fec34c01f65b3d9d774983",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "io-lifetimes@2.0.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/io-lifetimes-2.0.4-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/io-lifetimes-2.0.4-COPYRIGHT.txt",
+          "sha256": "495c30b45120f8af07cfa26eb9cb1ebfe8324560dca2b3b1e76cad1b9b6b489a",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "io-lifetimes",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/sunfishcode/io-lifetimes",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "37b9d1bc5d70ec81c0ea862f34b853aef4c4b949"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "2.0.4"
+    },
+    {
+      "checksum": "2f0fb0570afe1fed943c5c3d4102d5358592d8625fda6a0007fdbe65a92fba96",
+      "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "default"
+      ],
+      "id": "io-lifetimes@3.0.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/io-lifetimes-3.0.1-LICENSE-MIT.txt",
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/io-lifetimes-3.0.1-COPYRIGHT.txt",
+          "sha256": "495c30b45120f8af07cfa26eb9cb1ebfe8324560dca2b3b1e76cad1b9b6b489a",
+          "source_file": "COPYRIGHT"
+        }
+      ],
+      "name": "io-lifetimes",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/sunfishcode/io-lifetimes",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "a260eb48d54cab4555fcf21bb496ca7235277034"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "3.0.1"
+    },
+    {
+      "checksum": "6a756c3fac73139e83f14c2d742155dd2b78d3ee56597b419a0579b7bdd6dd78",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "default",
+        "std"
+      ],
+      "id": "ipnet@2.12.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/ipnet-2.12.1-LICENSE-MIT.txt",
+          "sha256": "47dc9ff29128ddfb4d6a0435383c9f89120bc374dbcc1dd00b933a0b28aa7865",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "ipnet",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/krisprice/ipnet",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "bdc02c67c85b0298e8315b32bb9018bdd0f8e8f7"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "2.12.1"
+    },
+    {
+      "checksum": "4facc753ae494aeb6e3c22f839b158aebd4f9270f55cd3c79906c45476c47ab4",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "maybe-owned@0.3.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/maybe-owned-0.3.4-LICENSE-MIT.txt",
+          "sha256": "ef2b3bbd7b718a7881253226313f103e89b379e1279681a3c1ebcb65a27d209d",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "maybe-owned",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/rustonaut/maybe-owned",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "a00769e3332fb2f93f2b58f0b731fbb6222fa66c"
+        }
+      },
+      "version": "0.3.4"
+    },
+    {
+      "checksum": "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98",
+      "declared_license": "Unlicense OR MIT",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "alloc",
+        "std"
+      ],
+      "id": "memchr@2.8.3",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/memchr-2.8.3-LICENSE-MIT.txt",
+          "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "memchr",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/BurntSushi/memchr",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "5fdb40c054e1fff359a2f7bdf7f87a13b34b465d"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "2.8.3"
+    },
+    {
+      "checksum": "f020237b6c8eed93db2e2cb53c00c60a8e1bc73da7d073199a1180401450218d",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "aho-corasick@1.1.5",
+        "memchr@2.8.3",
+        "regex-automata@0.4.18",
+        "regex-syntax@0.8.11"
+      ],
+      "direct": true,
+      "features": [
+        "default",
+        "perf",
+        "perf-backtrack",
+        "perf-cache",
+        "perf-dfa",
+        "perf-inline",
+        "perf-literal",
+        "perf-onepass",
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment"
+      ],
+      "id": "regex@1.13.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/regex-1.13.1-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "regex",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "2b527599eb9eea0dcc288c704584f242f26a5c61"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "1.13.1"
+    },
+    {
+      "checksum": "ad8553b9b26413251cbf30e620595c7a41b3887f03da04579c0e6b0d6a06b4b2",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "aho-corasick@1.1.5",
+        "memchr@2.8.3",
+        "regex-syntax@0.8.11"
+      ],
+      "direct": false,
+      "features": [
+        "alloc",
+        "dfa-onepass",
+        "hybrid",
+        "meta",
+        "nfa-backtrack",
+        "nfa-pikevm",
+        "nfa-thompson",
+        "perf-inline",
+        "perf-literal",
+        "perf-literal-multisubstring",
+        "perf-literal-substring",
+        "std",
+        "syntax",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment",
+        "unicode-word-boundary"
+      ],
+      "id": "regex-automata@0.4.18",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/regex-automata-0.4.18-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "regex-automata",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "e6ad938198e68339a593f85d228f2d44cb54718f"
+        },
+        "path_in_vcs": "regex-automata"
+      },
+      "version": "0.4.18"
+    },
+    {
+      "checksum": "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "default",
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment"
+      ],
+      "id": "regex-syntax@0.8.11",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/regex-syntax-0.8.11-LICENSE-MIT.txt",
+          "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+          "source_file": "LICENSE-MIT"
+        },
+        {
+          "file": "third_party/licenses/regex-syntax-0.8.11-LICENSE-UNICODE.txt",
+          "sha256": "74db5baf44a41b1000312c673544b3374e4198af5605c7f9080a402cec42cfa3",
+          "source_file": "src/unicode_tables/LICENSE-UNICODE"
+        }
+      ],
+      "name": "regex-syntax",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/rust-lang/regex",
+      "selected_license": "MIT AND Unicode-DFS-2016",
+      "vcs": {
+        "git": {
+          "sha1": "140167995737fa11dfe11b8af8b9aa143b790b4e"
+        },
+        "path_in_vcs": "regex-syntax"
+      },
+      "version": "0.8.11"
+    },
+    {
+      "checksum": "446ba717509524cb3f22f17ecc096f10f4822d76ab5c0b9822c5f9c284e825f4",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "cfg-if@1.0.4",
+        "cpufeatures@0.3.0",
+        "digest@0.11.3"
+      ],
+      "direct": true,
+      "features": [],
+      "id": "sha2@0.11.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/sha2-0.11.0-LICENSE-MIT.txt",
+          "sha256": "831e0f43ad0bf014c1c4fec5767aae470434c1d66d6e671be2d823e729063e25",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "sha2",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/RustCrypto/hashes",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "ffe093984c004769747e998f77da8ff7c0e7a765"
+        },
+        "path_in_vcs": "sha2"
+      },
+      "version": "0.11.0"
+    },
+    {
+      "checksum": "b6f5e870be6c3b371b77fe0ee0bafb859fa4964b4404c27de1d380043c4dda20",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [
+        "const-generics"
+      ],
+      "id": "typenum@1.20.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/typenum-1.20.1-LICENSE-MIT.txt",
+          "sha256": "a825bd853ab71619a4923d7b4311221427848070ff44d990da39b0b274c1683f",
+          "source_file": "LICENSE-MIT"
+        }
+      ],
+      "name": "typenum",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/paholg/typenum",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "0db9a0f731981f29266b63586c29fa07e4477b1a"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "1.20.1"
+    },
+    {
+      "checksum": "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "windows-link@0.2.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-link-0.2.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-link",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "d468916ac27a36fb8a12bafc1bf5c0ec2fe92238"
+        },
+        "path_in_vcs": "crates/libs/link"
+      },
+      "version": "0.2.1"
+    },
+    {
+      "checksum": "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "windows-targets@0.52.6"
+      ],
+      "direct": false,
+      "features": [
+        "Win32",
+        "Win32_Foundation",
+        "Win32_Storage",
+        "Win32_Storage_FileSystem",
+        "Win32_System",
+        "Win32_System_IO",
+        "Win32_System_Ioctl",
+        "Win32_System_LibraryLoader",
+        "Win32_System_Performance",
+        "Win32_System_SystemServices",
+        "default"
+      ],
+      "id": "windows-sys@0.59.0",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-sys-0.59.0-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-sys",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "308e08ec259027ebbef11b8ef838923626bf821e"
+        },
+        "path_in_vcs": "crates/libs/sys"
+      },
+      "version": "0.59.0"
+    },
+    {
+      "checksum": "f2f500e4d28234f72040990ec9d39e3a6b950f9f22d3dba18416c35882612bcb",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "windows-targets@0.53.5"
+      ],
+      "direct": false,
+      "features": [
+        "Win32",
+        "Win32_Foundation",
+        "Win32_Networking",
+        "Win32_Networking_WinSock",
+        "Win32_System",
+        "Win32_System_Console",
+        "default"
+      ],
+      "id": "windows-sys@0.60.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-sys-0.60.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-sys",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "4b8893b307719ec23cce698269ca572ef301dc5c"
+        },
+        "path_in_vcs": "crates/libs/sys"
+      },
+      "version": "0.60.2"
+    },
+    {
+      "checksum": "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "windows-link@0.2.1"
+      ],
+      "direct": true,
+      "features": [
+        "Wdk",
+        "Wdk_Foundation",
+        "Wdk_Storage",
+        "Wdk_Storage_FileSystem",
+        "Wdk_System",
+        "Wdk_System_SystemServices",
+        "Win32",
+        "Win32_Foundation",
+        "Win32_Globalization",
+        "Win32_Networking",
+        "Win32_Networking_WinSock",
+        "Win32_Security",
+        "Win32_Security_Cryptography",
+        "Win32_Storage",
+        "Win32_Storage_FileSystem",
+        "Win32_System",
+        "Win32_System_Diagnostics",
+        "Win32_System_Diagnostics_Debug",
+        "Win32_System_IO",
+        "Win32_System_Ioctl",
+        "Win32_System_Kernel",
+        "Win32_System_SystemServices",
+        "Win32_System_WindowsProgramming",
+        "default"
+      ],
+      "id": "windows-sys@0.61.2",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-sys-0.61.2-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-sys",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "32c3144490c016fe496a0aed769bce60987a2e9d"
+        },
+        "path_in_vcs": "crates/libs/sys"
+      },
+      "version": "0.61.2"
+    },
+    {
+      "checksum": "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "windows_x86_64_msvc@0.52.6"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "windows-targets@0.52.6",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-targets-0.52.6-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-targets",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "db06b51c2ebb743efb544d40e3064efa49f28d38"
+        },
+        "path_in_vcs": "crates/libs/targets"
+      },
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "4945f9f551b88e0d65f3db0bc25c33b8acea4d9e41163edf90dcd0b19f9069f3",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [
+        "windows_x86_64_msvc@0.53.1"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "windows-targets@0.53.5",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows-targets-0.53.5-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows-targets",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "32c3144490c016fe496a0aed769bce60987a2e9d"
+        },
+        "path_in_vcs": "crates/libs/targets"
+      },
+      "version": "0.53.5"
+    },
+    {
+      "checksum": "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "windows_x86_64_msvc@0.52.6",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows_x86_64_msvc-0.52.6-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows_x86_64_msvc",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "db06b51c2ebb743efb544d40e3064efa49f28d38"
+        },
+        "path_in_vcs": "crates/targets/x86_64_msvc"
+      },
+      "version": "0.52.6"
+    },
+    {
+      "checksum": "d6bbff5f0aada427a1e5a6da5f1f98158182f26556f345ac9e04d36d0ebed650",
+      "declared_license": "MIT OR Apache-2.0",
+      "dependencies": [],
+      "direct": false,
+      "features": [],
+      "id": "windows_x86_64_msvc@0.53.1",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/windows_x86_64_msvc-0.53.1-license-mit.txt",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "source_file": "license-mit"
+        }
+      ],
+      "name": "windows_x86_64_msvc",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/microsoft/windows-rs",
+      "selected_license": "MIT",
+      "vcs": {
+        "git": {
+          "sha1": "d468916ac27a36fb8a12bafc1bf5c0ec2fe92238"
+        },
+        "path_in_vcs": "crates/targets/x86_64_msvc"
+      },
+      "version": "0.53.1"
+    },
+    {
+      "checksum": "3f3fd376f71958b862e7afb20cfe5a22830e1963462f3a17f49d82a6c1d1f42d",
+      "declared_license": "Apache-2.0 WITH LLVM-exception",
+      "dependencies": [
+        "bitflags@2.13.1",
+        "windows-sys@0.59.0"
+      ],
+      "direct": false,
+      "features": [],
+      "id": "winx@0.36.4",
+      "license_materials": [
+        {
+          "file": "third_party/licenses/winx-0.36.4-LICENSE.txt",
+          "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5",
+          "source_file": "LICENSE"
+        }
+      ],
+      "name": "winx",
+      "notice": "No upstream NOTICE file in the exact crate archive; selected COPYRIGHT included where present.",
+      "repository": "https://github.com/sunfishcode/winx",
+      "selected_license": "Apache-2.0 WITH LLVM-exception",
+      "vcs": {
+        "git": {
+          "sha1": "23d6e2793b27979f7a7abbdbf1b2aedc1d0c78f3"
+        },
+        "path_in_vcs": ""
+      },
+      "version": "0.36.4"
+    }
+  ],
+  "target": "x86_64-pc-windows-msvc"
+}

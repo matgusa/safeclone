@@ -1,0 +1,160 @@
+{
+  "command": [
+    "cargo",
+    "build",
+    "--release",
+    "--locked",
+    "--offline",
+    "--target",
+    "x86_64-pc-windows-msvc"
+  ],
+  "environment": {
+    "CARGO_ENCODED_RUSTFLAGS": "unit-separator-joined rustflags above",
+    "CARGO_HOME": "audited cache; configuration files forbidden",
+    "CARGO_INCREMENTAL": "0",
+    "CARGO_TARGET_DIR": "fresh per-build source/build",
+    "LIB": [
+      "<MSVC>/lib/x64",
+      "<SDK>/um/x64",
+      "<SDK>/ucrt/x64"
+    ],
+    "PATH": [
+      "<RUST_SYSROOT>/bin",
+      "<MSVC>/bin/Hostx64/x64",
+      "<SYSTEMROOT>/System32"
+    ],
+    "RUSTC": "<RUST_SYSROOT>/bin/rustc.exe",
+    "allowed_os_variables": [
+      "SYSTEMROOT",
+      "WINDIR",
+      "TEMP",
+      "TMP",
+      "USERPROFILE",
+      "APPDATA",
+      "LOCALAPPDATA",
+      "COMSPEC"
+    ],
+    "mode": "allowlist in scripts/reproduce.py; no inherited build overrides"
+  },
+  "expected_executable_sha256": "8b894ce172dfcf9bec97455f6f134b5dc8497c3f0ded1baaa29a7db49f5a3c4c",
+  "fingerprint_algorithm": "SHA256 of sorted UTF-8 lines: <file-sha256> two spaces <relative-posix-name> LF; sets conservatively bind available tools/libs, not every file is linked",
+  "host_inputs": {
+    "cargo": "cargo 1.97.1 (c980f4866 2026-06-30)\nrelease: 1.97.1\ncommit-hash: c980f4866141969fab6254a680546a277789d6f0\ncommit-date: 2026-06-30\nhost: x86_64-pc-windows-msvc\nlibgit2: 1.9.2 (sys:0.20.4 vendored)\nlibcurl: 8.20.0-DEV (sys:0.4.88+curl-8.20.0 vendored ssl:Schannel)",
+    "msvc_libraries": {
+      "files": 76,
+      "patterns": [
+        "*.lib"
+      ],
+      "sha256": "087fb6d45f12e49da54169913e4d3aeb9ce7400d7df2c1117378c438838932a2"
+    },
+    "msvc_tools": {
+      "files": 48,
+      "patterns": [
+        "link.exe",
+        "dumpbin.exe",
+        "mspdbsrv.exe",
+        "*.dll"
+      ],
+      "sha256": "2141f9a2c525e3fb08e5bef375d0726f48c0a86717a6952597ec6d31df35615a"
+    },
+    "msvc_toolset": "14.50.35717",
+    "python": "3.12.14",
+    "release_target_cfg": [
+      "panic=\"unwind\"",
+      "target_abi=\"\"",
+      "target_arch=\"x86_64\"",
+      "target_endian=\"little\"",
+      "target_env=\"msvc\"",
+      "target_family=\"windows\"",
+      "target_feature=\"cmpxchg16b\"",
+      "target_feature=\"fxsr\"",
+      "target_feature=\"sse\"",
+      "target_feature=\"sse2\"",
+      "target_feature=\"sse3\"",
+      "target_has_atomic=\"128\"",
+      "target_has_atomic=\"16\"",
+      "target_has_atomic=\"32\"",
+      "target_has_atomic=\"64\"",
+      "target_has_atomic=\"8\"",
+      "target_has_atomic=\"ptr\"",
+      "target_has_atomic_primitive_alignment=\"128\"",
+      "target_has_atomic_primitive_alignment=\"16\"",
+      "target_has_atomic_primitive_alignment=\"32\"",
+      "target_has_atomic_primitive_alignment=\"64\"",
+      "target_has_atomic_primitive_alignment=\"8\"",
+      "target_has_atomic_primitive_alignment=\"ptr\"",
+      "target_os=\"windows\"",
+      "target_pointer_width=\"64\"",
+      "target_vendor=\"pc\"",
+      "windows"
+    ],
+    "rust_libraries": {
+      "files": 23,
+      "patterns": [
+        "*.rlib",
+        "*.lib",
+        "*.dll"
+      ],
+      "sha256": "1ab94c3549524943536a7083ed16b5f5f84ec1ecc680c90d6f05bf0327b0fd22"
+    },
+    "rust_link_tools": {
+      "files": 7,
+      "patterns": [
+        "**/*.exe",
+        "**/*.dll"
+      ],
+      "sha256": "b3063938698fd361a632adf87ed14c0ae7c97b005b31a8545864e36b105f30f3"
+    },
+    "rust_tools": {
+      "files": 4,
+      "patterns": [
+        "rustc.exe",
+        "cargo.exe",
+        "*.dll"
+      ],
+      "sha256": "73b85f5dd2d6c1b8f813e2043390eba980cb45c10a275bb91df4fcd57a2b2b39"
+    },
+    "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)\nbinary: rustc\ncommit-hash: 8bab26f4f68e0e26f0bb7960be334d5b520ea452\ncommit-date: 2026-07-14\nhost: x86_64-pc-windows-msvc\nrelease: 1.97.1\nLLVM version: 22.1.6",
+    "sdk_ucrt": {
+      "files": 8,
+      "patterns": [
+        "*.lib"
+      ],
+      "sha256": "decac4a29f71f055549d3fdcb7cc6ab282a26de8148a4693f34089a4c4eceaab"
+    },
+    "sdk_um": {
+      "files": 453,
+      "patterns": [
+        "*.lib"
+      ],
+      "sha256": "b06a2df6a69477903b7c35b4f009df41435674955c12f71710642e3ef5a3022f"
+    },
+    "target": "x86_64-pc-windows-msvc",
+    "windows_sdk": "10.0.26100.0"
+  },
+  "profile": {
+    "codegen-units": 16,
+    "crt-static": false,
+    "debug": false,
+    "debug-assertions": false,
+    "incremental": false,
+    "lto": false,
+    "name": "release",
+    "opt-level": 3,
+    "overflow-checks": false,
+    "panic": "unwind",
+    "target-cpu": "default x86-64",
+    "target-feature-overrides": []
+  },
+  "rust_channel_at_audit": "Exact Rust version, commit and fingerprints; do not follow a moving toolchain alias",
+  "rustflags": [
+    "-C",
+    "link-arg=/Brepro",
+    "-C",
+    "linker=<MSVC>/bin/Hostx64/x64/link.exe",
+    "--remap-path-prefix=<SOURCE>=/safeclone",
+    "--remap-path-prefix=<CARGO_HOME>=/cargo",
+    "--remap-path-prefix=<RUST_SYSROOT>=/rust-toolchain"
+  ],
+  "source": "This source checkout, Cargo.toml/Cargo.lock/src only; LF-normalized bytes from build/source-files.json; no Git metadata"
+}

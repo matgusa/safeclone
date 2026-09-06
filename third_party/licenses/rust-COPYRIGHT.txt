@@ -1,0 +1,9 @@
+The Rust Project Developers (see https://thanks.rust-lang.org)
+
+library/backtrace: Copyright 2014 Alex Crichton; The Rust Project Developers.
+library/core/src/unicode/unicode_data.rs: Copyright 1991-2024 Unicode, Inc.
+library/std/src/sync/mpmc: Copyright 2019 The Crossbeam Project Developers; The Rust Project Developers.
+
+Selected Windows portions from Rust 1.97.1 COPYRIGHT-library.html.
+MIT selected where Apache-2.0 OR MIT is offered; Unicode-3.0 for Unicode data.
+Contributors retain their copyrights; full authorship is in upstream version control.
